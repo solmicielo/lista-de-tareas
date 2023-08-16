@@ -1,0 +1,5 @@
+<h5>Titulo:{{task?.title}}</h5>
+<h6>Descripcion{{task?.description}}</h6>
+<p>Completado?{{ task?.completed ? 'Si' : 'No'}}</p>
+
+<button (click)="deleteTask()">Borrar Tarea</button>
